@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Abecedarian Tetris</title>
+		<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<header>
+			<p id="title">Abecedarian &#8212; Tetris</p>
+		</header>
+		<div id="frontNCenter">
+		<span id="Score">Score: 0</span>
+		<p id="pokemon" class="number"></p><p id="pokeName"></p>
+		</div>
+		<canvas id="board">
+		</canvas>
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBbUzp4PKTGC5SbXPPyQVjLUYY5DoBbiEs",
+    authDomain: "abecedarian-tetris.firebaseapp.com",
+    databaseURL: "https://abecedarian-tetris.firebaseio.com",
+    projectId: "abecedarian-tetris",
+    storageBucket: "abecedarian-tetris.appspot.com",
+    messagingSenderId: "1037360171782"
+  };
+  firebase.initializeApp(config);
+</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="tetrominoes.js"></script>
+		<script src="tetris.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
+
+<!-- <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+<script type="text/javascript">google.load("jquery", "1.3.2");</script> -->

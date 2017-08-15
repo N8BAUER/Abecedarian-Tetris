@@ -1,0 +1,88 @@
+
+
+#frontNCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 1.5em;
+  height: 80px;
+}
+
+#board {
+  margin: 0 auto;
+  display: block;
+  border: 5px solid black;
+  border-bottom: 10px solid black;
+  background: white;
+}
+/*#Score {
+  display: block;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 2em;
+  color: red;
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 1.5em;
+}*/
+
+#blackBar {
+  font-size: 6px;
+  border-style: dotted;
+  border-color: red;
+  background-color: black
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: double;
+  border-width: 30px;
+  border-color: black;
+  background: red;
+  height: 50px;
+  border-radius: 50%
+}
+
+header p{
+
+}
+
+
+#title {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 50px
+}
+
+body {
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}

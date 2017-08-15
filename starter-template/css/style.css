@@ -1,0 +1,46 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ #download-button{
+   color: white
+ }
+
+
+.light-blue.lighten-1{
+  background-color: red
+  }
+
+
+ #logo-container{
+   color:black;
+   font-family: 'Anton', sans-serif;
+   padding-top: 3px;
+   padding-left: 50px;
+
+ }
+
+ .right li a{
+   color:black;
+   padding-top: 5px;
+   padding-right: 50px;
+   font-family: 'Anton', sans-serif;
+   font-size: 18px
+
+ }
+
+.nav-wrapper{
+   background-color: rgb(188, 193, 194);
+ }
+
+
+.icon-block {a
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
